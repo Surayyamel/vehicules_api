@@ -9,7 +9,9 @@
     "db:create": "cd db && sequelize-cli db:create",
     "db:g:m:vehicule": "cd db && sequelize-cli model:generate --name Vehicule --attributes make:string,model:string",
     "db:migrate": "cd db && sequelize-cli db:migrate",
-    "db:g:migration": "cd db && sequelize-cli migration:generate --name"
+    "db:g:migration": "cd db && sequelize-cli migration:generate --name",
+    "db:g:seed": "cd db && sequelize-cli seed:generate --name",
+    "db:seeds": "cd db && sequelize-cli db:seed:all"
   },
   "author": "",
   "license": "ISC",
