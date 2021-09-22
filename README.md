@@ -1,6 +1,6 @@
 # Vehicules API
 
-An application that creates a database with a table named 'vehicules'. The API reads from the database and returns all the rows from the 'vehicules' table.
+The API reads from a database and returns all the rows from the 'vehicules' table.
 
 ## Environment Variables
 
