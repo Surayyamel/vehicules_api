@@ -7,7 +7,8 @@ const getAllVehicules = async (req, res) => {
 
         res.status(200).json(vehicules);
     } catch (error) {
-        res.status(500).json(error);
+       
+        res.status(500).json(error.message);
     }
 }
 
