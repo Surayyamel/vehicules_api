@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "nodemon app.js",
     "init:sequelize-cli": "cd db && sequelize-cli init",
-    "db:create": "cd db && sequelize-cli db:create"
+    "db:create": "cd db && sequelize-cli db:create",
+    "db:g:m:vehicule": "cd db && sequelize-cli model:generate --name Vehicule --attributes make:string,model:string",
+    "db:migrate": "cd db && sequelize-cli db:migrate",
+    "db:g:migration": "cd db && sequelize-cli migration:generate --name"
   },
   "author": "",
   "license": "ISC",
