@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "dev": "nodemon app.js",
     "init:sequelize-cli": "cd db && sequelize-cli init",
     "db:create": "cd db && sequelize-cli db:create",
